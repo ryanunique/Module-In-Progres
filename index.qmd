@@ -680,9 +680,9 @@ Step 7. Remove the `Municipality` layer by Clicking it and click ![](images/clip
 
 ![](images/clipboard-1582405855.png)
 
-Now we are ready to perform the clipping activity.
+Before performing the clipping steps, we will just need to choose a certain municipality and export it. this will help us focus and to make the project clean. So the following steps will show you how to export selected feature from layer.
 
-**Step 8.** Click the `Municipality` layer, Right Click to open its ![](images/clipboard-2661292151.png) . At the left buttom part of the dialog box is the ![](images/clipboard-2423986001.png). Click this button to show some options. Click the `Field Filter` and hit `ADM3_EN` . This field contains the name of each municipality.
+**Step 8.** Click the `Municipality` layer, Right Click to open its ![](images/clipboard-2661292151.png) . At the left button part of the dialog box is the ![](images/clipboard-2423986001.png). Click this button to show some options. Click the `Field Filter` and hit `ADM3_EN` . This field contains the name of each municipality.
 
 ![](images/clipboard-524084296.png)
 
@@ -690,17 +690,25 @@ Now we are ready to perform the clipping activity.
 
 ![](images/clipboard-533629399.png)
 
-Step 10. The attribute table will only show the queried name of the municipality. Select the municipality by clicking the id number. You will observed that the selected municipality will be filled with yellow color. This is just an indicator this feature is selected.
+**Step 10.** The attribute table will only show the queried name of the municipality. Select the municipality by clicking the id number. You will observed that the selected municipality will be filled with yellow color. This is just an indicator this feature is selected.
 
 ![](images/clipboard-2635920102.png)
 
-Step 11. Close the attribute table and click the Municipality.shp_UTM51N layer. Right click it then select `Export ----> Save Selected feature as` .
+**Step 11**. Close the attribute table and click the Municipality.shp_UTM51N layer. Right click it then select `Export ----> Save Selected feature as` .
 
 ![](images/clipboard-1293827255.png)
 
-Step 11. In the dialogbox, set `Fortmat` as `ESRI shapefile` . Click the browse button and create a folder name `Municipality of peñablanca` and Save the shapefile as `Municipality of Peñablanca.shp`
+**Step 12.** In the dialogbox, set `Fortmat` as `ESRI shapefile` . Click the browse button and create a folder name `Municipality of peñablanca` and Save the shapefile as `Municipality of Peñablanca.shp`. Set the CRS to `EPSG: 32651` Don't forget to check the ![](images/clipboard-3806105890.png) to display you output then hit ![](images/clipboard-1688524868.png).
 
 ![](images/clipboard-3481844617.png)
+
+**Step 13.** Remove the `Municipality.shp_UTM51N` since we no longer need it for the succeeding steps.
+
+![](images/clipboard-1221151449.png)
+
+Now we are ready to perform the clipping activity.
+
+![](images/clipboard-1100718386.png)
 
 {{< pagebreak >}}
 
