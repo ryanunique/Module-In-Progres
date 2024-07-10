@@ -88,13 +88,13 @@ GIS is often associated with maps, but it is important to understand that it enc
 
 GIS may appear as a single entity, but it is actually a system consisting of a collection of components working together to perform a particular function. As a system, GIS comprises various elements connected and integrated in a cohesive manner. Like any other system, GIS is composed of numerous components, including but not restricted to:
 
-+---------------+----------------------------+
-| -   Computer  | -   Hardware               |
-+---------------+----------------------------+
-| -   Software  | -   Procedures and methods |
-+---------------+----------------------------+
-| -   Data      | -   People                 |
-+---------------+----------------------------+
++--------------+----------------------------+
+| -   Computer | -   Hardware               |
++--------------+----------------------------+
+| -   Software | -   Procedures and methods |
++--------------+----------------------------+
+| -   Data     | -   People                 |
++--------------+----------------------------+
 
 : Common Components of a GIS
 
@@ -232,27 +232,27 @@ KML is a file that can be created, visualized, and edited using Google Earth app
 
 Below are some of the examples of vector and raster data. Note that this is not a comprehensive list.
 
-+---------------+-----------------------------+------------------------------------+
-| Data Model    | Examples                    | Sample Products                    |
-+===============+=============================+====================================+
-| Raster        | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
-|               |                             | -   IKONOS images (2m)             |
-|               | -   Scanned maps            | -   NAMRIA                         |
-|               |                             | -   Arial Capture from Drone       |
-|               | -   Arial Photograp         |                                    |
-|               |                             |                                    |
-|               | -   Digital elevation model |                                    |
-|               |                             |                                    |
-|               | -   Digital Terrain Model   |                                    |
-|               |                             |                                    |
-|               | -   Digital Surface Model   |                                    |
-+---------------+-----------------------------+------------------------------------+
-| Vector        | -   Shapefiles              | -   Downloadable SHP from gadm.org |
-|               |                             | -   Google earth file              |
-|               | -   KML                     | -   Schetch plans                  |
-|               |                             |                                    |
-|               | -   AutoCAD (DWG)           |                                    |
-+---------------+-----------------------------+------------------------------------+
++------------+-----------------------------+------------------------------------+
+| Data Model | Examples                    | Sample Products                    |
++============+=============================+====================================+
+| Raster     | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
+|            |                             | -   IKONOS images (2m)             |
+|            | -   Scanned maps            | -   NAMRIA                         |
+|            |                             | -   Arial Capture from Drone       |
+|            | -   Arial Photograp         |                                    |
+|            |                             |                                    |
+|            | -   Digital elevation model |                                    |
+|            |                             |                                    |
+|            | -   Digital Terrain Model   |                                    |
+|            |                             |                                    |
+|            | -   Digital Surface Model   |                                    |
++------------+-----------------------------+------------------------------------+
+| Vector     | -   Shapefiles              | -   Downloadable SHP from gadm.org |
+|            |                             | -   Google earth file              |
+|            | -   KML                     | -   Schetch plans                  |
+|            |                             |                                    |
+|            | -   AutoCAD (DWG)           |                                    |
++------------+-----------------------------+------------------------------------+
 
 : Examples of Vector and Raster
 
@@ -450,45 +450,45 @@ After installing the software, click the windows icon ( ![](images/clipboard-322
 
 **Step 2.** Press **`Ctrl + N`** to start a new project or Click the ![](images/clipboard-4226328116.png) ![](images/clipboard-1334164282.png) icon. A new untitled project was just created.
 
-![](images/Screenshot 2024-07-10 033251.jpg)
+![](images/Screenshot%202024-07-10%20033251.jpg)
 
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Component                         | Description                                                                                                                                                          |
-+===================================+======================================================================================================================================================================+
-| 1.   Menu Bar                     | The Menu bar provides access to QGIS functions using standard hierarchical menus.                                                                                    |
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.   Toolbar                      | The toolbars provide access to most of the functions in the menus, plus additional tools for interacting with the map.                                               |
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.   Panels                       | QGIS provides many panels. Panels are special widgets that you can interact with (selecting options, checking boxes, filling values…) to perform more complex tasks. |
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.  Map View                      | The map view provide visualization of the layers being loaded into the QGIS.                                                                                         |
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.  Status Bar                    | The status bar provides you with general information about the map view and processed or available actions, and offers you tools to manage the map view.             |
-+-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Component      | Description                                                                                                                                                          |
++================+======================================================================================================================================================================+
+| 1.  Menu Bar   | The Menu bar provides access to QGIS functions using standard hierarchical menus.                                                                                    |
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.  Toolbar    | The toolbars provide access to most of the functions in the menus, plus additional tools for interacting with the map.                                               |
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.  Panels     | QGIS provides many panels. Panels are special widgets that you can interact with (selecting options, checking boxes, filling values…) to perform more complex tasks. |
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.  Map View   | The map view provide visualization of the layers being loaded into the QGIS.                                                                                         |
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.  Status Bar | The status bar provides you with general information about the map view and processed or available actions, and offers you tools to manage the map view.             |
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : QGIS GUI Components and their description
 
 A more detailed information on each of the component can be access from the official website of [QGIS.](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#)
 
-# MODULE 3:  LOADING DIFFERENT DATA MODELS INTO QGIS
+# MODULE 3: LOADING DIFFERENT DATA MODELS INTO QGIS
 
 ### Objectives:
 
 This Module enables the students to:
 
-1.   Differentiate different data models,
+1.  Differentiate different data models,
 
-2.   Load different data into QGIS.
+2.  Load different data into QGIS.
 
 ### Outcomes:
 
 After reading and following the steps and procedure in this module, the students should be able to:
 
-1.   Gain knowledge about the different data models,
+1.  Gain knowledge about the different data models,
 
 2.  Confidently load different data models into QGIS.
 
-## Loading  Vector Layers
+## Loading Vector Layers
 
 The data to be use for this exercise can be downloaded [here](https://drive.google.com/drive/folders/15k58nhDnTo8yu-jBT9v4gbH_6GIxsViY?usp=sharing).
 
