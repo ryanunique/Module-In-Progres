@@ -686,7 +686,21 @@ Now we are ready to perform the clipping activity.
 
 ![](images/clipboard-524084296.png)
 
-##### **Step 9.** In the search bar type the name of  the municipality you are interested. In our case, its the municipality of Peñablanca.
+**Step 9.** In the search bar type the name of the municipality you are interested. In our case, its the municipality of `Peñablanca`. After typing press `Enter` on your keyboard,
+
+![](images/clipboard-533629399.png)
+
+Step 10. The attribute table will only show the queried name of the municipality. Select the municipality by clicking the id number. You will observed that the selected municipality will be filled with yellow color. This is just an indicator this feature is selected.
+
+![](images/clipboard-2635920102.png)
+
+Step 11. Close the attribute table and click the Municipality.shp_UTM51N layer. Right click it then select `Export ----> Save Selected feature as` .
+
+![](images/clipboard-1293827255.png)
+
+Step 11. In the dialogbox, set `Fortmat` as `ESRI shapefile` . Click the browse button and create a folder name `Municipality of peñablanca` and Save the shapefile as `Municipality of Peñablanca.shp`
+
+![](images/clipboard-3481844617.png)
 
 {{< pagebreak >}}
 
