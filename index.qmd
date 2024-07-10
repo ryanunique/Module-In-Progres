@@ -674,11 +674,19 @@ If you intended to do an analysis later e.g. Area computation, length etc. it is
 
 ![](images/clipboard-136172703.png)
 
-Step 7. Remove the `Municipality` layer by Cliccking it and click ![](images/clipboard-1397253324.png) remove layer icon or pressing `CTRL + D.`
+Step 7. Remove the `Municipality` layer by Clicking it and click ![](images/clipboard-1397253324.png) remove layer icon or pressing `CTRL + D.`
 
 ![](images/clipboard-277220666.png)
 
 ![](images/clipboard-1582405855.png)
+
+Now we are ready to perform the clipping activity.
+
+**Step 8.** Click the `Municipality` layer, Right Click to open its ![](images/clipboard-2661292151.png) . At the left buttom part of the dialog box is the ![](images/clipboard-2423986001.png). Click this button to show some options. Click the `Field Filter` and hit `ADM3_EN` . This field contains the name of each municipality.
+
+![](images/clipboard-524084296.png)
+
+##### **Step 9.** In the search bar type the name of  the municipality you are interested. In our case, its the municipality of Peñablanca.
 
 {{< pagebreak >}}
 
