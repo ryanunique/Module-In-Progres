@@ -7,20 +7,13 @@ chapters:
   - intro.qmd
   - summary.qmd
   - references.qmd
-toc: true
+toc: false
 number-sections: true
 highlight-style: pygments
 format: 
   html: 
     theme: cosmo
-  pdf:
-    geometry: 
-      - top = 20mm
-      - left = 30mm
-      - right =15mm
-      - bottom = 30mm
   
-
 editor: visual
 ---
 
@@ -646,6 +639,46 @@ Step 2. A dialog will appear showing the parameters need to perform the operatio
 ![](images/clipboard-108232627.png)
 
 ### Clip
+
+The following steps will guide you on how to perform clipping in QGIS. In this example we will be using the River lines.shp and Municipality.shp
+
+**Step 1.** Set the project CRS to `ESPS:4326-WGS84` . Click ![](images/clipboard-2984481572.png) button.
+
+![](images/clipboard-831337892.png)
+
+**Step 2.** Load Municipality.shp using ![](images/clipboard-1250931855.png) add vector icon. The same procedure will apply in loading the River lines. shp.
+
+![](images/clipboard-710131471.png)
+
+**Step 3.** Hover your mouse on top each layer to determine their CRS. In our case we can observe that our two layers have different CRS. This is very a important step when you are performing clipping.
+
+![](images/clipboard-3302932604.png)
+
+![](images/clipboard-3526994082.png)
+
+::: callout-note
+Since the layers have different CRS, you have to export one of the layers to match each others CRS.
+
+If you intended to do an analysis later e.g. Area computation, length etc. it is advisable that you set their CRS to Projected Coordinates. In our case we will set the Municipality.shp to `EPSG:32651` since its CRS is Geographic and as we all know its unit is in Degrees.
+:::
+
+**Step 4.** Export the Municipality.shp and transform its CRS into `EPSG: 32651- UTM51N`. To do this Rigth Click the ![](images/clipboard-464955719.png) in the layers panel and in the menu select `Export` .
+
+![](images/clipboard-383113408.png)
+
+**Step 5.** Click the ![](images/clipboard-49752750.png) and a dialog box will appear.
+
+![](images/clipboard-711612060.png)
+
+**Step 6.** Set the `Format` to `ESRI Shapefile` . click the ![](images/clipboard-3956284766.png) browse button and set the name of the new shapefile to `Municipality.shp_UTM51`. Finally, set the `CRS` to ![](images/clipboard-3175510620.png). Donforget to Check the ![](images/clipboard-3944085810.png) and hit `OK` .
+
+![](images/clipboard-136172703.png)
+
+Step 7. Remove the `Municipality` layer by Cliccking it and click ![](images/clipboard-1397253324.png) remove layer icon or pressing `CTRL + D.`
+
+![](images/clipboard-277220666.png)
+
+![](images/clipboard-1582405855.png)
 
 {{< pagebreak >}}
 
