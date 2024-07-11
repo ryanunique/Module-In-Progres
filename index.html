@@ -175,7 +175,7 @@ GIS is ” <strong><em>Mapping plus more</em></strong>”</div>
 <table class="caption-top table">
 <caption>Common Components of a GIS</caption>
 <colgroup>
-<col style="width: 20%">
+<col style="width: 22%">
 <col style="width: 40%">
 </colgroup>
 <tbody>
@@ -468,9 +468,9 @@ Important Note:
 <table class="caption-top table">
 <caption>Examples of Vector and Raster</caption>
 <colgroup>
-<col style="width: 16%">
-<col style="width: 37%">
-<col style="width: 45%">
+<col style="width: 18%">
+<col style="width: 36%">
+<col style="width: 44%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -861,7 +861,7 @@ Caution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Your <code>Geometry CRS</code> should be the same as your Project CRS to display the data properly.</p>
+<p>Your <code>Geometry CRS</code> should be the same as your <code>Project CRS</code> to display the data properly.</p>
 <p><img src="images/clipboard-1672848513.png" class="img-fluid"></p>
 <p><img src="images/clipboard-2538007078.png" class="img-fluid"></p>
 </div>
@@ -964,7 +964,20 @@ Note
 <p>If you intended to do an analysis later e.g.&nbsp;Area computation, length etc. it is advisable that you set their CRS to Projected Coordinates. In our case we will set the Municipality.shp to <code>EPSG:32651</code> since its CRS is Geographic and as we all know its unit is in Degrees.</p>
 </div>
 </div>
-<p><strong>Step 4.</strong> Export the Municipality.shp and transform its CRS into <code>EPSG: 32651- UTM51N</code>. To do this Rigth Click the <img src="images/clipboard-464955719.png" class="img-fluid"> in the layers panel and in the menu select <code>Export</code> .</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following step will guide you on how to do CRS transformation. In some cases these steps may not be necessary specially if your layers have the same CRS. Just proceed to <strong><code>Step 14</code>.</strong></p>
+</div>
+</div>
+<p><strong>Step 4.</strong> Export the Municipality.shp and transform its CRS into <code>EPSG: 32651- UTM51N</code>. To do this Right Click the <img src="images/clipboard-464955719.png" class="img-fluid"> in the layers panel and in the menu select <code>Export</code> .</p>
 <p><img src="images/clipboard-383113408.png" class="img-fluid"></p>
 <p><strong>Step 5.</strong> Click the <img src="images/clipboard-49752750.png" class="img-fluid"> and a dialog box will appear.</p>
 <p><img src="images/clipboard-711612060.png" class="img-fluid"></p>
@@ -988,6 +1001,12 @@ Note
 <p><img src="images/clipboard-1221151449.png" class="img-fluid"></p>
 <p>Now we are ready to perform the clipping activity.</p>
 <p><img src="images/clipboard-1100718386.png" class="img-fluid"></p>
+<p><strong>Step 14.</strong> Under <code>Vector</code> go to <code>Processing tool</code> the select <code>Clip</code> .</p>
+<p><img src="images/clipboard-741342267.png" class="img-fluid"></p>
+<p><strong>Step 15.</strong> In the <code>Input layer</code> select <code>River lines</code> while in the <code>Overly layer</code> select <code>Municipality of Peñblanca</code>. Click the <img src="images/clipboard-3004198221.png" class="img-fluid"> browse button select <code>Save to file</code> and save the shapefile as <code>peñablanca _river.</code> Hit <img src="images/clipboard-476021693.png" class="img-fluid"> then <img src="images/clipboard-352300879.png" class="img-fluid">.</p>
+<p><img src="images/clipboard-3708412812.png" class="img-fluid"></p>
+<p><strong>Step 16.</strong> Remove <code>River lines</code> from the <code>Layers pannel</code> . You now have the Municipal boundary of Peñablanca and rivers within the municipality.</p>
+<p><img src="images/clipboard-1015629697.png" class="img-fluid"></p>
 <div style="page-break-after: always;"></div>
 </section>
 <section id="references" class="level2 unnumbered" data-number="4.1">
