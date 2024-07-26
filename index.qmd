@@ -524,12 +524,6 @@ Your `Geometry CRS` should be the same as your `Project CRS` to display the data
 
 ![](images/clipboard-261373783.png)
 
-### Loading Geotag Photos
-
-[GeoCam](https://geocam.en.softonic.com/android/download) is a free mobile app that allows users to measure geographical data, like compass orientation, inclination, elevation, and overlay that information onto photos and videos of the surrounding area.  A very helpful video tutorial on how to setup the application and on how to use the application can be access [here.](https://www.youtube.com/watch?v=s9PZ-UJsULA)
-
-For this module, we will assume that you have already gathered geotag photos from field works. A sample geotag photos data can be access here.
-
 ### Loading a shapefile
 
 We have discussed in the previous module, that shapefile is not a single file but rather composed of a group of files sharing the same name but with different file extensions.
@@ -554,7 +548,9 @@ a dialog box will appear.
 
 ![](images/clipboard-169011094.png)
 
-### Loading Raster data
+## Loading Raster Data
+
+### Loading Digital Elevation Model (DEM)
 
 One of the most common raster data being use for geospatial analysis is the Digital Elevation Model (DEM). A digital elevation model (DEM) is essentially a 3D computer representation of Earth's (or any celestial body's) surface, focusing on elevation.
 
@@ -571,6 +567,12 @@ The following steps will guide you on how to load raster specifically DEM to QGI
 Step 3. Hit ![](images/clipboard-4159016390.png) then ![](images/clipboard-3739708011.png) the dialog box. Your DEM data is now loaded in the layers panel and in the map frame.
 
 ![](images/clipboard-3702934924.png)
+
+### Loading Geotag Photos
+
+[GeoCam](https://geocam.en.softonic.com/android/download) is a free mobile app that allows users to measure geographical data, like compass orientation, inclination, elevation, and overlay that information onto photos and videos of the surrounding area.  A very helpful video tutorial on how to setup the application and on how to use the application can be access [here.](https://www.youtube.com/watch?v=s9PZ-UJsULA)
+
+For this module, we will assume that you have already gathered geotag photos from field works. A sample geotag photos data can be access here.
 
 # MODULE 4: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 
