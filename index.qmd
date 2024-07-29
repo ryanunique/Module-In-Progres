@@ -574,13 +574,23 @@ Step 3. Hit ![](images/clipboard-4159016390.png) then ![](images/clipboard-37397
 
 For this module, we will assume that you have already gathered geotag photos from field works. A sample geotag photos data can be access [here](https://drive.google.com/drive/folders/15txZ2Fgw_HpSJumJ-Eu3sbGZ77a31uCw?usp=sharing).
 
-To load a geotag photos follow these steps:
+To load a geotag photo follow these steps:
 
-**Step 1.** Before loading the geotagphoto, it is very important to check what type of `CRS` the geotagphoto has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotag photos.
+**Step 1.** Before loading the geotag photo, it is very important to check what type of `CRS` the geotag photo has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotag photos.
 
 ![](images/clipboard-3419342448.png)
 
 As you can see on the above sample geotagphoto, it's `CRS` is UTM 51 as indicated on the first two digit number on the left of the coordinate. ![](images/clipboard-3450102522.png){width="112"}
+
+**Step 2.** After opening you `QGIS Software`, and after checking the geotag photo's `CRS` set your `Project CRS` to `EPSG: 32651 - UTM zone 51N`.
+
+![](images/clipboard-3923795668.png)
+
+**Step 3.** To load the geotag photos, under `Processing Toolbox`, type in `Import Geotagphoto` in the `Searchbox`. Select it and `Double click` on it to open the tool.
+
+![](images/clipboard-4078171524.png)
+
+**Step 4.**
 
 # MODULE 4: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 
