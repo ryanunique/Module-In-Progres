@@ -568,29 +568,43 @@ Step 3. Hit ![](images/clipboard-4159016390.png) then ![](images/clipboard-37397
 
 ![](images/clipboard-3702934924.png)
 
-### Loading Geotag Photos
+### Loading Geotagged Photos
 
 [GeoCam](https://geocam.en.softonic.com/android/download) is a free mobile app that allows users to measure geographical data, like compass orientation, inclination, elevation, and overlay that information onto photos and videos of the surrounding area.  A very helpful video tutorial on how to setup the application and on how to use the application can be access [here.](https://www.youtube.com/watch?v=s9PZ-UJsULA)
 
 For this module, we will assume that you have already gathered geotag photos from field works. A sample geotag photos data can be access [here](https://drive.google.com/drive/folders/15txZ2Fgw_HpSJumJ-Eu3sbGZ77a31uCw?usp=sharing).
 
-To load a geotag photo follow these steps:
+To load a geotaggedphoto follow these steps:
 
-**Step 1.** Before loading the geotag photo, it is very important to check what type of `CRS` the geotag photo has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotag photos.
+**Step 1.** Before loading the geotag photo, it is very important to check what type of `CRS` the geotaggedphoto has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotag photos.
 
 ![](images/clipboard-3419342448.png)
 
-As you can see on the above sample geotagphoto, it's `CRS` is UTM 51 as indicated on the first two digit number on the left of the coordinate. ![](images/clipboard-3450102522.png){width="112"}
+As you can see on the above sample geotaggedphoto, it's `CRS` is UTM 51 as indicated on the first two digit number on the left of the coordinate. ![](images/clipboard-3450102522.png){width="112"}
 
-**Step 2.** After opening you `QGIS Software`, and after checking the geotag photo's `CRS` set your `Project CRS` to `EPSG: 32651 - UTM zone 51N`.
+**Step 2.** After opening you `QGIS Software`, and after checking the geotaggedphoto's `CRS` set your `Project CRS` to `EPSG: 32651 - UTM zone 51N`.
 
 ![](images/clipboard-3923795668.png)
 
-**Step 3.** To load the geotag photos, under `Processing Toolbox`, type in `Import Geotagphoto` in the `Searchbox`. Select it and `Double click` on it to open the tool.
+**Step 3.** To load the geotaggedphotos, under `Processing Toolbox`, type in `Import Geotagphoto` in the `Searchbox`. Select it and `Double click` on it to open the tool.
 
 ![](images/clipboard-4078171524.png)
 
-**Step 4.**
+**Step 4.** In the `Input folder`, click ![](images/clipboard-4030391454.png) the `browse` button to look for the folder where you put all the geotaggedphotos you're going to import. After finding the folder, click `Run`.
+
+![](images/clipboard-3832094305.png)
+
+**Step 5.** After Clicking `Run` you can now see that the x and y coordinate of each photo is now converted in to points and a new layer name `Photo` is now visible on the `Layers Panenl` .
+
+::: callout-note
+![](images/clipboard-2821467915.png)
+:::
+
+::: callout-note
+Remember to save the output since it is only temporary. Once you quit `QGIS` the layer will be remove and you need to load it again and follow the same process. To make it permanent , follow the same principles used in **Step 4.** in the Vector Analysis under the [Clip] exercise.
+
+![](images/clipboard-3721133770.png)
+:::
 
 # MODULE 4: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 

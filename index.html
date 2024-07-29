@@ -113,7 +113,7 @@ div.csl-indent {
   <li><a href="#loading-raster-data" id="toc-loading-raster-data" class="nav-link" data-scroll-target="#loading-raster-data"><span class="header-section-number">3.2</span> Loading Raster Data</a>
   <ul class="collapse">
   <li><a href="#loading-digital-elevation-model-dem" id="toc-loading-digital-elevation-model-dem" class="nav-link" data-scroll-target="#loading-digital-elevation-model-dem"><span class="header-section-number">3.2.1</span> Loading Digital Elevation Model (DEM)</a></li>
-  <li><a href="#loading-geotag-photos" id="toc-loading-geotag-photos" class="nav-link" data-scroll-target="#loading-geotag-photos"><span class="header-section-number">3.2.2</span> Loading Geotag Photos</a></li>
+  <li><a href="#loading-geotagged-photos" id="toc-loading-geotagged-photos" class="nav-link" data-scroll-target="#loading-geotagged-photos"><span class="header-section-number">3.2.2</span> Loading Geotagged Photos</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#module-4-vector-analysis-buffer-clip-intersection" id="toc-module-4-vector-analysis-buffer-clip-intersection" class="nav-link" data-scroll-target="#module-4-vector-analysis-buffer-clip-intersection"><span class="header-section-number">4</span> MODULE 4: VECTOR ANALYSIS (Buffer, Clip &amp; Intersection)</a>
@@ -962,19 +962,48 @@ Caution
 <p>Step 3. Hit <img src="images/clipboard-4159016390.png" class="img-fluid"> then <img src="images/clipboard-3739708011.png" class="img-fluid"> the dialog box. Your DEM data is now loaded in the layers panel and in the map frame.</p>
 <p><img src="images/clipboard-3702934924.png" class="img-fluid"></p>
 </section>
-<section id="loading-geotag-photos" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="loading-geotag-photos"><span class="header-section-number">3.2.2</span> Loading Geotag Photos</h3>
+<section id="loading-geotagged-photos" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="loading-geotagged-photos"><span class="header-section-number">3.2.2</span> Loading Geotagged Photos</h3>
 <p><a href="https://geocam.en.softonic.com/android/download">GeoCam</a> is a free mobile app that allows users to measure geographical data, like compass orientation, inclination, elevation, and overlay that information onto photos and videos of the surrounding area.&nbsp; A very helpful video tutorial on how to setup the application and on how to use the application can be access <a href="https://www.youtube.com/watch?v=s9PZ-UJsULA">here.</a></p>
 <p>For this module, we will assume that you have already gathered geotag photos from field works. A sample geotag photos data can be access <a href="https://drive.google.com/drive/folders/15txZ2Fgw_HpSJumJ-Eu3sbGZ77a31uCw?usp=sharing">here</a>.</p>
-<p>To load a geotag photo follow these steps:</p>
-<p><strong>Step 1.</strong> Before loading the geotag photo, it is very important to check what type of <code>CRS</code> the geotag photo has. This is so, to ensure that your <code>project CRS</code> and your <code>layer CRS</code> are the same and to avoid errors when displaying the location of your geotag photos.</p>
+<p>To load a geotaggedphoto follow these steps:</p>
+<p><strong>Step 1.</strong> Before loading the geotag photo, it is very important to check what type of <code>CRS</code> the geotaggedphoto has. This is so, to ensure that your <code>project CRS</code> and your <code>layer CRS</code> are the same and to avoid errors when displaying the location of your geotag photos.</p>
 <p><img src="images/clipboard-3419342448.png" class="img-fluid"></p>
-<p>As you can see on the above sample geotagphoto, it’s <code>CRS</code> is UTM 51 as indicated on the first two digit number on the left of the coordinate. <img src="images/clipboard-3450102522.png" class="img-fluid" width="112"></p>
-<p><strong>Step 2.</strong> After opening you <code>QGIS Software</code>, and after checking the geotag photo’s <code>CRS</code> set your <code>Project CRS</code> to <code>EPSG: 32651 - UTM zone 51N</code>.</p>
+<p>As you can see on the above sample geotaggedphoto, it’s <code>CRS</code> is UTM 51 as indicated on the first two digit number on the left of the coordinate. <img src="images/clipboard-3450102522.png" class="img-fluid" width="112"></p>
+<p><strong>Step 2.</strong> After opening you <code>QGIS Software</code>, and after checking the geotaggedphoto’s <code>CRS</code> set your <code>Project CRS</code> to <code>EPSG: 32651 - UTM zone 51N</code>.</p>
 <p><img src="images/clipboard-3923795668.png" class="img-fluid"></p>
-<p><strong>Step 3.</strong> To load the geotag photos, under <code>Processing Toolbox</code>, type in <code>Import Geotagphoto</code> in the <code>Searchbox</code>. Select it and <code>Double click</code> on it to open the tool.</p>
+<p><strong>Step 3.</strong> To load the geotaggedphotos, under <code>Processing Toolbox</code>, type in <code>Import Geotagphoto</code> in the <code>Searchbox</code>. Select it and <code>Double click</code> on it to open the tool.</p>
 <p><img src="images/clipboard-4078171524.png" class="img-fluid"></p>
-<p><strong>Step 4.</strong></p>
+<p><strong>Step 4.</strong> In the <code>Input folder</code>, click <img src="images/clipboard-4030391454.png" class="img-fluid"> the <code>browse</code> button to look for the folder where you put all the geotaggedphotos you’re going to import. After finding the folder, click <code>Run</code>.</p>
+<p><img src="images/clipboard-3832094305.png" class="img-fluid"></p>
+<p><strong>Step 5.</strong> After Clicking <code>Run</code> you can now see that the x and y coordinate of each photo is now converted in to points and a new layer name <code>Photo</code> is now visible on the <code>Layers Panenl</code> .</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="images/clipboard-2821467915.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember to save the output since it is only temporary. Once you quit <code>QGIS</code> the layer will be remove and you need to load it again and follow the same process. To make it permanent , follow the same principles used in <strong>Step 4.</strong> in the Vector Analysis under the <a href="#clip">Clip</a> exercise.</p>
+<p><img src="images/clipboard-3721133770.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
 </section>
 </section>
