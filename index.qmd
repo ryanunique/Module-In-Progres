@@ -45,7 +45,7 @@ Altitude
 
 :   Used to describe the vertical and distance between an object and a reference points.
 
-Eleveation
+Elevation
 
 :   Used to describe the height of a place above sea level.
 
