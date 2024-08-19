@@ -37,6 +37,30 @@ After reading this module, students should be able to:
 
 ## Definition of Terms
 
+Surveying
+
+:   It is the art,science and technology of making all essential measurements to determine and establish the relative of points together with their physical and cultural details.
+
+Altitude
+
+:   Used to describe the vertical and distance between an object and a reference points.
+
+Eleveation
+
+:   Used to describe the height of a place above sea level.
+
+Contour line
+
+:   are imaginary line of a terrain that joins the points of equal elevation above sea given level,such as mean sea level or benchmark.
+
+Contour interval
+
+:   The difference in values between contours.
+
+    ::: callout-note
+    Contour lines never cross each other and moving from one contour to another indicates change in elevation.
+    :::
+
 {{< pagebreak >}}
 
 ## Basic GIS Concept
@@ -568,7 +592,7 @@ Step 3. Hit ![](images/clipboard-4159016390.png) then ![](images/clipboard-37397
 
 ![](images/clipboard-3702934924.png)
 
-### Loading Geotagged Photos
+### Loading Geotagged Photos from GeoCam App
 
 [GeoCam](https://geocam.en.softonic.com/android/download) is a free mobile app that allows users to measure geographical data, like compass orientation, inclination, elevation, and overlay that information onto photos and videos of the surrounding area.  A very helpful video tutorial on how to setup the application and on how to use the application can be access [here.](https://www.youtube.com/watch?v=s9PZ-UJsULA)
 
@@ -576,13 +600,13 @@ For this module, we will assume that you have already gathered geotag photos fro
 
 To load a geotaggedphoto follow these steps:
 
-**Step 1.** Before loading the geotag photo, it is very important to check what type of `CRS` the geotaggedphoto has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotag photos.
+**Step 1.** Before loading the geotagged photo, it is very important to check what type of `CRS` the geotagged photo has. This is so, to ensure that your `project CRS` and your `layer CRS` are the same and to avoid errors when displaying the location of your geotagged photos.
 
 ![](images/clipboard-3419342448.png)
 
-As you can see on the above sample geotaggedphoto, it's `CRS` is UTM 51 as indicated on the first two digit number on the left of the coordinate. ![](images/clipboard-3450102522.png){width="112"}
+As you can see on the above sample geotagged photo, it's `CRS` is UTM 51 as indicated on the first two digit number on the left of the coordinate. ![](images/clipboard-3450102522.png){width="112"}
 
-**Step 2.** After opening you `QGIS Software`, and after checking the geotaggedphoto's `CRS` set your `Project CRS` to `EPSG: 32651 - UTM zone 51N`.
+**Step 2.** After opening your `QGIS Software`, and after checking the geotaggedphoto's `CRS` set your `Project CRS` to `EPSG: 32651 - UTM zone 51N`.
 
 ![](images/clipboard-3923795668.png)
 
