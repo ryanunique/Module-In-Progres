@@ -63,6 +63,54 @@ Contour interval
 
 {{< pagebreak >}}
 
+## History of GIS
+
+### Early history of GIS (1960)
+
+The field of geographic information systems (GIS) started in the 1960s as computers and early concepts of quantitative and computational geography emerged.
+
+Early GIS work included important research by the ***academic community***.
+
+Later, the National Center for Geographic Information and Analysis, led by ***Michael Goodchild***, formalized research on key geographic information science topics such as spatial analysis and visualization.
+
+These efforts fueled a quantitative revolution in the world of geographic science and laid the groundwork for GIS.
+
+### The First GIS (1963)
+
+Roger Tomlinson’s (the father of GIS) pioneering work to initiate, plan, and develop the Canada Geographic Information System resulted in the first computerized GIS in the world in 1963.
+
+![Roger Tomlinson](images/clipboard-4268455773.png){width="449"}
+
+The Canadian government had commissioned Tomlinson to create a manageable inventory of its natural resources. He envisioned using computers to merge natural resource data from all provinces. Tomlinson created the design for automated computing to store and process large amounts of data, which enabled Canada to begin its national land-use management program.
+
+He also gave ***GIS*** its name.
+
+### The Harvard Laboratory (1965)
+
+While at Northwestern University in 1964, Howard Fisher created one of the first computer mapping software programs known as SYMAP. In 1965, he established the Harvard Laboratory for Computer Graphics.
+
+While some of the first computer map-making software was created and refined at the Lab, it also became a research center for spatial analysis and visualization.
+
+Many of the early concepts for GIS and its applications were conceived at the Lab by a talented collection of geographers, planners, computer scientists, and others from many fields.
+
+### ESRI is Founded (1969)
+
+In 1969, **Jack Dangermond**—a member of the Harvard Lab—and his wife Laura founded Environmental Systems Research Institute, Inc. (Esri).
+
+The consulting firm applied computer mapping and spatial analysis to help land use planners and land resource managers make informed decisions.
+
+The company’s early work demonstrated the value of GIS for problem solving. Esri went on to develop many of the GIS mapping and spatial analysis methods now in use. These results generated a wider interest in the company’s software tools and work-flows that are now standard to GIS.
+
+### GIS Goes Commercial (1981)
+
+As computing became more powerful, Esri improved its software tools.
+
+Working on projects that solved real-world problems led the company to innovate and develop robust GIS tools and approaches that could be broadly used.
+
+Esri’s work gained recognition from the academic community as a new way of doing spatial analysis and planning.
+
+In need of analyzing an increasing number of projects more effectively, Esri developed ARC/INFO—the first commercial GIS product. The technology was released in 1981 and began the evolution of Esri into a software company.
+
 ## Basic GIS Concept
 
 This module aims to provide a discussion about basic Geographic Information System (GIS). The discussions about GIS in this module are not comprehensive and are intended for beginner students. Further readings and resources are provided at the end of this module for students who wish to learn more about the science and art of GIS.
