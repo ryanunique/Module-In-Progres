@@ -244,11 +244,11 @@ Polygon
 The appropriate type of vector to use depends on the objector entity of interest.
 :::
 
-![Shapefile has the same name but a different file extension.](Pictures/Shapefile.png){width="577"}
-
 ### The Shapefile
 
 It is the most common supported vector file format. Despite the name, this is not a single file but a group of files sharing the same name but with different file extensions.
+
+![Shapefile has the same name but a different file extension.](Pictures/Shapefile.png){alt="Shapefile has the same name but a different file extension." width="577"}
 
 +-------------+------------------------------------------------------------------------------------+
 | File format | Description                                                                        |
@@ -298,27 +298,27 @@ KML is a file that can be created, visualized, and edited using Google Earth app
 
 Below are some of the examples of vector and raster data. Note that this is not a comprehensive list.
 
-+---------------+-----------------------------+------------------------------------+
-| Data Model    | Examples                    | Sample Products                    |
-+===============+=============================+====================================+
-| Raster        | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
-|               |                             | -   IKONOS images (2m)             |
-|               | -   Scanned maps            | -   NAMRIA                         |
-|               |                             | -   Arial Capture from Drone       |
-|               | -   Arial Photograp         |                                    |
-|               |                             |                                    |
-|               | -   Digital elevation model |                                    |
-|               |                             |                                    |
-|               | -   Digital Terrain Model   |                                    |
-|               |                             |                                    |
-|               | -   Digital Surface Model   |                                    |
-+---------------+-----------------------------+------------------------------------+
-| Vector        | -   Shapefiles              | -   Downloadable SHP from gadm.org |
-|               |                             | -   Google earth file              |
-|               | -   KML                     | -   Schetch plans                  |
-|               |                             |                                    |
-|               | -   AutoCAD (DWG)           |                                    |
-+---------------+-----------------------------+------------------------------------+
++--------------+-----------------------------+------------------------------------+
+| Data Model   | Examples                    | Sample Products                    |
++==============+=============================+====================================+
+| Raster       | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
+|              |                             | -   IKONOS images (2m)             |
+|              | -   Scanned maps            | -   NAMRIA                         |
+|              |                             | -   Arial Capture from Drone       |
+|              | -   Arial Photograp         |                                    |
+|              |                             |                                    |
+|              | -   Digital elevation model |                                    |
+|              |                             |                                    |
+|              | -   Digital Terrain Model   |                                    |
+|              |                             |                                    |
+|              | -   Digital Surface Model   |                                    |
++--------------+-----------------------------+------------------------------------+
+| Vector       | -   Shapefiles              | -   Downloadable SHP from gadm.org |
+|              |                             | -   Google earth file              |
+|              | -   KML                     | -   Schetch plans                  |
+|              |                             |                                    |
+|              | -   AutoCAD (DWG)           |                                    |
++--------------+-----------------------------+------------------------------------+
 
 : Examples of Vector and Raster
 
@@ -417,6 +417,8 @@ A GCS is round, and so records locations in angular units (usually degrees). A P
 ![Comparison between PCS and GCS](images/clipboard-3601100940.png){fig-align="center"}
 
 Once your dataset is prepared to be depicted, it must determine the method of portrayal. The dilemma arises from the discrepancy between the spherical nature of the Earth’s surface—and consequently, your **Geographic Coordinate System (GCS)**—and the planar characteristics of your map and computer display. Transferring the Earth’s curvature onto a flat medium inevitably leads to distortion. It’s akin to attempting to flatten an orange peel on a table; it nearly works, but not without some tearing. This is where the utility of map projections is evident. They provide instructions on how to manipulate the Earth’s representation—how to strategically tear and stretch that orange peel—so that the most crucial aspects of your map suffer minimal distortion and are optimally represented on the map’s flat plane.
+
+{{< pagebreak >}}
 
 {{< pagebreak >}}
 
