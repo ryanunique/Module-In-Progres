@@ -248,7 +248,7 @@ The appropriate type of vector to use depends on the objector entity of interest
 
 It is the most common supported vector file format. Despite the name, this is not a single file but a group of files sharing the same name but with different file extensions.
 
-![Shapefile has the same name but a different file extension.](Pictures/Shapefile.png){alt="Shapefile has the same name but a different file extension." width="577"}
+![Shapefile has the same name but a different file extension.](Pictures/Shapefile.png){width="577"}
 
 +-------------+------------------------------------------------------------------------------------+
 | File format | Description                                                                        |
@@ -598,6 +598,12 @@ Your `Geometry CRS` should be the same as your `Project CRS` to display the data
 
 ![](images/clipboard-261373783.png)
 
+::: callout-note
+## Learning Task
+
+To Familiarized yourself about the process above, your next task is to load the `Site Coordinate2.csv` into your map window using the same steps. Take note of the `CRS` of the file and make sure your project `CRS` is the same as your layer `CRS`. Explore other ways to load csv files into QGIS.
+:::
+
 ### Loading a shapefile
 
 We have discussed in the previous module, that shapefile is not a single file but rather composed of a group of files sharing the same name but with different file extensions.
@@ -634,7 +640,7 @@ The following steps will guide you on how to load raster specifically DEM to QGI
 
 ![](images/clipboard-3463207333.png)
 
-**Step 2.** Click the ![](images/clipboard-1271662103.png) browse button, and select and open the e the `DEM.tif` file.
+**Step 2.** Click the ![](images/clipboard-1271662103.png) browse button, and select and open the `Luzon_DEM.tif` file.
 
 ![](images/clipboard-2015866256.png)
 
@@ -680,7 +686,53 @@ Remember to save the output since it is only temporary. Once you quit `QGIS` the
 ![](images/clipboard-3721133770.png)
 :::
 
-# MODULE 4: VECTOR ANALYSIS (Buffer, Clip & Intersection)
+# MOULE 4. MAP LAYOUT
+
+### Objectives
+
+This module enables the students to:
+
+1.   Familiarize the QGIS Map composer.
+
+2.  Understand the different map elements.
+
+### Outcomes
+
+After following the steps in this module, the students will be able to:
+
+1.  Composed and design their own Map.
+
+2.  Export their own Map into image.
+
+## Essential Map Elements
+
+Maps are typically designed for audiences who aren't GIS experts, such as politicians, citizens, or students. To effectively convey spatial information to these viewers, maps should include key elements like a **title, map body, legend, north arrow, scale bar, acknowledgments,** and **a border.**
+
+Additional elements like a **graticule** or **map projection** can enhance map clarity. These elements, along with the **title, legend**, and other components, assist the viewer in understanding the map's information. While the **map body** is central, these supporting elements aid in orientation and interpretation. For instance, the title identifies the subject, and the **legend** connects symbols to the data.
+
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Element                  | Description                                                                                                                                                                                                                                                                                |
++==========================+============================================================================================================================================================================================================================================================================================+
+| Title                    | The map title is very important because it is usually the first thing a reader will look at on a map.                                                                                                                                                                                      |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Map Border               | The map border is a line that defines exactly the edges of the area shown on the map.                                                                                                                                                                                                      |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Map legend               | A map is a simplified representation of the real world and **map symbols** are used to represent real objects.                                                                                                                                                                             |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| North arrow              | A north arrow (sometimes also called a compass rose) is a figure displaying the main directions, **North**, **South**, **East** and **West**. On a map it is used to indicate the direction of North.                                                                                      |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Scale                    | The scale of a map, is the value of a single unit of distance on the map, representing distance in the real world. The values are shown in map units (meters, feet or degrees). The scale can be expressed in several ways, for example, in words, as a ratio or as a graphical scale bar. |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Acknowledgement          | In the acknowledgment area of a map it is possible to add text with important information.                                                                                                                                                                                                 |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Graticule                | A graticule is a network of lines overlain on a map to make spatial orientation easier for the reader.                                                                                                                                                                                     |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Name of Map Projection   | A map projection tries to represent the 3-dimensional Earth with all its features like houses, roads or lakes on a flat sheet of paper.                                                                                                                                                    |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Map Elements and their description.
+
+# MODULE 5: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 
 ### Objectives:
 
