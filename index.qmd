@@ -734,6 +734,26 @@ Additional elements like a **graticule** or **map projection** can enhance map c
 
 ![A map containing essential elements](images/Habitat Composition (MPSA-140-99-III).jpg)
 
+## Using the Print Layout
+
+This steps will guide you oh how to produce your maps using the print layout. In order to use the layout, you must first load data into QGIS. Follow the steps above to load any recognized data model in QGIS. For this module we will create a map of the different municipalities in Isabela. Access the data that will be needed [here](https://drive.google.com/drive/folders/1yEF6PaKvRW0Dp5idA2CKE5NX4y6tFQ_K?usp=sharing).
+
+**Loading the data**
+
+**Step 1.** Open Your QGIS then set your project CRS in accordance to the layer CRS that you are going to load.
+
+**Step 2.** Follow the steps on how to load shapefiles in this section [Loading a shapefile]. Load the `Isabela_1911` and `gadm41_PHL_1.shp` into your QGIS. If a dialogbox will appear when loading `gadm41_PHL_1.shp`, just click **OK.**
+
+![](images/clipboard-411534221.png)
+
+**Layer styling**
+
+Before opening the Map layout, we should perform some basic styling to our layer. Below some steps on basic styling.
+
+Step 1. First we will do styling on the `Isabela_1911 layer.` We will change the name of this layer into `Municipality of Isabela.` To do this, Right click on the `Isabela_1911 layer` and click `Rename Layer` then type `Municipality of Isabela.` Do the same with the `gadm41_PHL_1` change it into `Regional Boundary.`
+
+![](images/clipboard-735797618.png)
+
 # MODULE 5: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 
 ### Objectives:
