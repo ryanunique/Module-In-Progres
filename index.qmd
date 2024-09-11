@@ -732,6 +732,8 @@ Additional elements like a **graticule** or **map projection** can enhance map c
 
 : Map Elements and their description.
 
+![A map containing essential elements](images/Habitat Composition (MPSA-140-99-III).jpg)
+
 # MODULE 5: VECTOR ANALYSIS (Buffer, Clip & Intersection)
 
 ### Objectives:
