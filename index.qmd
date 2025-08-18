@@ -480,11 +480,13 @@ The following steps shows you how to install QGIS into your computer. In order t
 
 ![The QGIS website](images/clipboard-2841307576.png)
 
-**Step 2.** After clicking the **`Download`** button, it will re direct you to the download page. Click `Skip it and go to download` button. To proceed
+**Step 2.** After clicking the **`Download`** button, it will re direct you to the download page. Click `Skip it and go to download` button.
 
 ![](images/clipboard-1722035394.png)
 
 {{< pagebreak>}}
+
+![](images/clipboard-468045333.png)
 
 ::: callout-tip
 **Release Candidate (RC)** is the latest version of QGIS that is being tested and can be used. The only disadvantage of this version is that it is prone to Bugs and frequent Crash. While **Long Term Release (LTR)** is usually older version of the software that is more stable that the release candidate.
