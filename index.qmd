@@ -154,13 +154,13 @@ GIS is often associated with maps, but it is important to understand that it enc
 
 GIS may appear as a single entity, but it is actually a system consisting of a collection of components working together to perform a particular function. As a system, GIS comprises various elements connected and integrated in a cohesive manner. Like any other system, GIS is composed of numerous components, including but not restricted to:
 
-+--------------+----------------------------+
-| -   Computer | -   Hardware               |
-+--------------+----------------------------+
-| -   Software | -   Procedures and methods |
-+--------------+----------------------------+
-| -   Data     | -   People                 |
-+--------------+----------------------------+
++---------------+----------------------------+
+| -   Computer  | -   Hardware               |
++---------------+----------------------------+
+| -   Software  | -   Procedures and methods |
++---------------+----------------------------+
+| -   Data      | -   People                 |
++---------------+----------------------------+
 
 : Common Components of a GIS
 
@@ -298,27 +298,27 @@ KML is a file that can be created, visualized, and edited using Google Earth app
 
 Below are some of the examples of vector and raster data. Note that this is not a comprehensive list.
 
-+------------+-----------------------------+------------------------------------+
-| Data Model | Examples                    | Sample Products                    |
-+============+=============================+====================================+
-| Raster     | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
-|            |                             | -   IKONOS images (2m)             |
-|            | -   Scanned maps            | -   NAMRIA                         |
-|            |                             | -   Arial Capture from Drone       |
-|            | -   Arial Photograp         |                                    |
-|            |                             |                                    |
-|            | -   Digital elevation model |                                    |
-|            |                             |                                    |
-|            | -   Digital Terrain Model   |                                    |
-|            |                             |                                    |
-|            | -   Digital Surface Model   |                                    |
-+------------+-----------------------------+------------------------------------+
-| Vector     | -   Shapefiles              | -   Downloadable SHP from gadm.org |
-|            |                             | -   Google earth file              |
-|            | -   KML                     | -   Schetch plans                  |
-|            |                             |                                    |
-|            | -   AutoCAD (DWG)           |                                    |
-+------------+-----------------------------+------------------------------------+
++--------------+-----------------------------+------------------------------------+
+| Data Model   | Examples                    | Sample Products                    |
++==============+=============================+====================================+
+| Raster       | -   Satallite Images        | -   Landsat 4,5,7,7 (30m)          |
+|              |                             | -   IKONOS images (2m)             |
+|              | -   Scanned maps            | -   NAMRIA                         |
+|              |                             | -   Arial Capture from Drone       |
+|              | -   Arial Photograp         |                                    |
+|              |                             |                                    |
+|              | -   Digital elevation model |                                    |
+|              |                             |                                    |
+|              | -   Digital Terrain Model   |                                    |
+|              |                             |                                    |
+|              | -   Digital Surface Model   |                                    |
++--------------+-----------------------------+------------------------------------+
+| Vector       | -   Shapefiles              | -   Downloadable SHP from gadm.org |
+|              |                             | -   Google earth file              |
+|              | -   KML                     | -   Schetch plans                  |
+|              |                             |                                    |
+|              | -   AutoCAD (DWG)           |                                    |
++--------------+-----------------------------+------------------------------------+
 
 : Examples of Vector and Raster
 
@@ -444,10 +444,6 @@ After reading and following the steps and procedure in this module, the students
 
 {{< pagebreak >}}
 
-**Definition of terms**
-
-{{< pagebreak >}}
-
 ## Overview of the QGIS Software
 
 ### What is QGIS?
@@ -482,11 +478,11 @@ The following steps shows you how to install QGIS into your computer. In order t
 
 **Step 1.** In your internet browser type <https://qgis.org/en/site/index.html> in the search bar. The official website of QGIS will appear.
 
-![QGIS official Website](images/clipboard-1858100542.png){fig-align="center"}
+![The QGIS website](images/clipboard-2841307576.png)
 
-**Step 2.** In the web page, you can see two buttons the ![](images/clipboard-1395801283.png){width="68" height="16"} and ![](images/clipboard-3969769840.png){width="68" height="16"}. You can also observe that under the ![](images/clipboard-2291666506.png){width="68" height="17"} are two versions the Release Candidate (RC) and the Long term release (LTR). Click the ![](images/clipboard-2291666506.png){width="64" height="16"} to proceed to the download page.
+**Step 2.** After clicking the **`Download`** button, it will re direct you to the download page. Click `Skip it and go to download`.
 
-![](images/clipboard-2831037054.png){width="449"}
+![](images/clipboard-1722035394.png)
 
 {{< pagebreak>}}
 
@@ -710,16 +706,25 @@ Maps are typically designed for audiences who aren't GIS experts, such as politi
 
 Additional elements like a **graticule** or **map projection** can enhance map clarity. These elements, along with the **title, legend**, and other components, assist the viewer in understanding the map's information. While the **map body** is central, these supporting elements aid in orientation and interpretation. For instance, the title identifies the subject, and the **legend** connects symbols to the data.
 
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element                | Description                                                                                                                                                                                                                                                                                |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
++========================+============================================================================================================================================================================================================================================================================================+
 | Title                  | The map title is very important because it is usually the first thing a reader will look at on a map.                                                                                                                                                                                      |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Map Border             | The map border is a line that defines exactly the edges of the area shown on the map.                                                                                                                                                                                                      |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Map legend             | A map is a simplified representation of the real world and **map symbols** are used to represent real objects.                                                                                                                                                                             |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | North arrow            | A north arrow (sometimes also called a compass rose) is a figure displaying the main directions, **North**, **South**, **East** and **West**. On a map it is used to indicate the direction of North.                                                                                      |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Scale                  | The scale of a map, is the value of a single unit of distance on the map, representing distance in the real world. The values are shown in map units (meters, feet or degrees). The scale can be expressed in several ways, for example, in words, as a ratio or as a graphical scale bar. |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Acknowledgement        | In the acknowledgment area of a map it is possible to add text with important information.                                                                                                                                                                                                 |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Graticule              | A graticule is a network of lines overlain on a map to make spatial orientation easier for the reader.                                                                                                                                                                                     |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name of Map Projection | A map projection tries to represent the 3-dimensional Earth with all its features like houses, roads or lakes on a flat sheet of paper.                                                                                                                                                    |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : Map Elements and their description.
 
