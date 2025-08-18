@@ -480,7 +480,7 @@ The following steps shows you how to install QGIS into your computer. In order t
 
 ![The QGIS website](images/clipboard-2841307576.png)
 
-**Step 2.** After clicking the **`Download`** button, it will re direct you to the download page. Click `Skip it and go to download`.
+**Step 2.** After clicking the **`Download`** button, it will re direct you to the download page. Click `Skip it and go to download` button. To proceed
 
 ![](images/clipboard-1722035394.png)
 
